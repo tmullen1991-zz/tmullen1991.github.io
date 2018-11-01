@@ -1,0 +1,46 @@
+body {
+    background-image: url(../images/houndstooth-pattern/houndstooth-pattern.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+a, h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+h1{
+    color: white;
+}
+footer{
+    background: #666666;
+    color: white;
+}
+#content{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.label{
+    position: absolute;
+    top:70%;
+    width: 95%;
+    background: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 767px){
+    #content{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+}  
+@media screen and (max-width: 575px){
+    #content{
+        margin-top: 160px;
+        margin-bottom: 30px;
+    }
+}
