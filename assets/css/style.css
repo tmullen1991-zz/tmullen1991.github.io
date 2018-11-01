@@ -20,7 +20,7 @@ footer{
 }
 #content{
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .label{
@@ -35,12 +35,12 @@ footer{
 @media screen and (max-width: 767px){
     #content{
         margin-top: 80px;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
     }
 }  
 @media screen and (max-width: 575px){
     #content{
         margin-top: 160px;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
     }
 }
