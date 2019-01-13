@@ -1,75 +1,42 @@
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif
+.card-title{
+    width: 100%;
+    padding: 0px 0px 0px 20px !important;
+    top: 80%;
+    height: 38px;
+    opacity: .8;
 }
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #46a0db;
-}
-.bg-header{
-    background: #ffffff;
-}
-.bg-name{
-    background: #46a0db;
-}
-.bg-content{
-    background: #ffffff;
-}
-.bg-footer{
-    background: #666666;
-}
-.border-bottom{
-    border-width: 3px !important;
-    border-color: #cccccc;
-}
-.border-content{
-    border-width: 3px !important;
-    border-color: #dddddd;
-}
-.border-footer{
-    border-top: solid;
-    border-width: 8px !important;
-    border-color: #46a0db;
-}
-.my-content{
-    margin: 90px 0px 70px 0px;
-}
-body{
-    background-image: url(../images/houndstooth-pattern/houndstooth-pattern.png);
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-}
-.label{
-    top:70%;
-    background: #46a0db;
-    text-align: center;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     color: white;
-    opacity: .9;
-}
-.img-w{
-    width: 95%
-}
-a{
-    color: #777777;
-}
-.h-0{
-    min-height: 0px;
-}
-.w-33{
-    width: 33%;
 }
 
-@media screen and (max-width: 767px){
-    .my-content{
-        margin: 55px 0px 40px 0px;
-        
-    }
-    body{
-        background: #ffffff;
-    }
-}  
-@media screen and (max-width: 575px){
-    .my-content{
-        margin: 75px 0px 30px 0px;
-    }
+main {
+    flex: 1 0 auto;
+}
+.title{
+    color: #0277bd;
+    font-size: 40px;
+}
+.left{
+    margin-left: 30px;
+}
+p, h1, h2, h3, h4, h5, h6{
+    color: #0277bd;
+}
+.bottom{
+    color: white !important;
+}
+a, i{
+    color: #0277bd !important;
+    display: inline !important;
+}
+.social-icons{
+    padding: 0px 0px 0px 32px !important;
+}
+.title{
+    border-bottom: 1px solid #0277bd;
+    box-shadow: 0 1px 0 0 #0277bd;
 }
 
